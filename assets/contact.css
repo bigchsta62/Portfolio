@@ -3,8 +3,12 @@ body{
 }
 
 form {
-
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 25px;
     background-color: dimgrey;
+}
+
+label {
+    font-weight: bold;
+    color: lightgray;
+    letter-spacing: .75px;
 }
