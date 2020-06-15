@@ -1,5 +1,28 @@
 body{
     margin: auto;
-    width: 75%;
+    width: 85%;
     background-color: dimgrey;
     }
+
+.card {
+    border-radius: 0px;
+    border-width: 0px;
+    background-color: dimgray;
+}
+
+.col-sm-4 {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 15px;
+    border-radius: 0px;
+    border-width: 0px;
+    
+    background-color: dimgrey;
+}
+
+a {
+    margin-left: 3px;
+    margin-right: 3px;
+    float: right;
+    
+}
