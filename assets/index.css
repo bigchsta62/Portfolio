@@ -1,8 +1,11 @@
 body{
-    margin: auto;
-    width: 85%;
     background-color: dimgrey;
     }
+.container-fluid {
+    margin: auto;
+    width: 85%;
+}
+
 
 .card {
     border-radius: 0px;

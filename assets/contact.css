@@ -1,4 +1,10 @@
-
+body{
+    background-color: dimgrey;
+    }
+.container-fluid {
+    margin: auto;
+    width: 85%;
+}
 
 form {
     padding-top: 50px;
@@ -9,11 +15,8 @@ label {
     font-weight: bold;
     color: lightgray;
     letter-spacing: .75px;
-}body{
-    margin: auto;
-    width: 85%;
-    background-color: dimgrey;
-    }
+}
+
 
 .card {
     border-radius: 0px;
