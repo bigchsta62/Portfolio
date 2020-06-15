@@ -3,16 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="../Portfolio/assets/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Travis Miller's Portfolio homepage</title>
 </head>
 
 <body>
-
-    <div class="container-flex">
+    <!-- Navbar copied from Bootstrap 4.5, personalized by me  -->
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">Travis Miller</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -21,8 +22,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Portfolio/pages/about.html">About <span class="sr-only">(current)</span></a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../Portfolio/pages/portfolio.html">Portfolio</a>
@@ -38,17 +39,53 @@
         </nav>
     </div>
 
+    <div class="container-fluid">
+        <div class="card text-white mb-3" style="max-width: 100%;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="../Portfolio/assets/images/IMG_3146.jpg" class="img-fluid"
+                        alt="Travis wearing a Phoenix Suns hat">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">About Me</h5>
+                        <p class="card-text">Hello, My name is Travis Miller. I am an aspiring web developer, from
+                            Chandler, AZ. I have been married to the love of my life, Ashtyn, for 14 years. We have 4
+                            awesome kids, Greylon, Sawyer, McKinley, and most recently Atlas. We homeschool, love to
+                            go on random adventures, and are passionate about helping the commmunity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+
+
+    </div>
+    
+    
+
+    </div>
+
+    <footer class="navbar fixed-bottom bg-dark">
+        <div class="container-fluid">
+            <span class="text-muted">Developer Services®</span>
+            <a href="https://www.facebook.com/travis.miller.587268" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://twitter.com/bigchsta621" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/travis-miller-726451137/" class="fa fa-linkedin target="_blank""></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-
 
 </html>
