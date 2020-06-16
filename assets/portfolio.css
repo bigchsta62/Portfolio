@@ -1,8 +1,9 @@
 /* * The Bootstrap portfolio should minimize the use of media queries. */
+/* * Validated using https://validator.w3.org/nu/#textarea  */
 
 body{
     background-color: dimgrey;
-    }
+}
  
 a {
     margin-top: 3px;
