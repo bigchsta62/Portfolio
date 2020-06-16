@@ -1,11 +1,22 @@
+/* * The Bootstrap portfolio should minimize the use of media queries. */
+
 body{
     background-color: dimgrey;
     }
+ 
+a {
+    margin-top: 3px;
+    margin-left: 7px;
+    margin-right: 7px;
+    float: right;    
+}   
 
-.container-fluid {
+main {
     margin: auto;
     width: 85%;
+    padding-top: 25px;
 }
+
 .card {
     border-radius: 0px;
     border-width: 0px;
@@ -22,9 +33,12 @@ body{
     background-color: dimgrey;
 }
 
-a {
-    margin-left: 3px;
-    margin-right: 3px;
-    float: right;
-    
+.p-3 {
+    background-color: #740001;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

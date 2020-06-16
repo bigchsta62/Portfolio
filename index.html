@@ -12,13 +12,14 @@
 </head>
 
 <body>
-    <!-- Navbar copied from Bootstrap 4.5, personalized by me  -->
+    <!-- * A navbar -->
+    <!-- * Navbar must be consistent on each page. -->
     <div class="container-flex"></div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">Travis Miller</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
@@ -32,6 +33,12 @@
                         <a class="nav-link" href="../Portfolio/pages/contact.html">Contact</a>
                     </li>
                 </ul>
+                <div class="container-flex">
+                    <a href="https://www.facebook.com/travis.miller.587268" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://twitter.com/bigchsta621" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/travis-miller-726451137/" class="fa fa-linkedin target="
+                    _blank""></a>
+                </div>
                 <span class="navbar-text">
 
                 </span>
@@ -39,41 +46,37 @@
         </nav>
     </div>
 
-    <div class="container-fluid">
-        <div class="card text-white mb-3" style="max-width: 100%;">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="../Portfolio/assets/images/IMG_3146.jpg" class="img-fluid"
-                        alt="Travis wearing a Phoenix Suns hat">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">About Me</h5>
-                        <p class="card-text">Hello, My name is Travis Miller. I am an aspiring web developer, from
-                            Chandler, AZ. I have been married to the love of my life, Ashtyn, for 14 years. We have 4
-                            awesome kids, Greylon, Sawyer, McKinley, and most recently Atlas. We homeschool, love to
-                            go on random adventures, and are passionate about helping the commmunity.
-                        </p>
+
+
+    <main>
+        <!-- * A responsive layout -->
+        <div class="container-fluid">
+            <div class="card text-white mb-3" style="max-width: 100%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <!-- * Responsive images -->
+                        <img src="../Portfolio/assets/images/IMG_3146.jpg" class="img-fluid"
+                            alt="Travis wearing a Phoenix Suns hat">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me</h5>
+                            <p class="card-text">Hello, My name is Travis Miller. I am an aspiring web developer, from
+                                Chandler, AZ. I have been married to the love of my life, Ashtyn, for 14 years. We have
+                                4
+                                awesome kids, Greylon, Sawyer, McKinley, and most recently Atlas. We homeschool, love to
+                                go on random adventures, and are passionate about helping the commmunity.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-       
+    </main>
 
-
-    </div>
-    
-    
-
-    </div>
-
-    <footer class="navbar fixed-bottom bg-dark">
-        <div class="container-fluid">
-            <span class="text-muted">Developer Services®</span>
-            <a href="https://www.facebook.com/travis.miller.587268" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://twitter.com/bigchsta621" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/travis-miller-726451137/" class="fa fa-linkedin target="_blank""></a>
+    <footer class=" fixed-bottom bg-dark">
+        <div class="container-flex">
+            <span class="text-muted text-center ">It may not be pretty, but it works®</span>
         </div>
     </footer>
 

@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <!-- Navbar copied from Bootstrap 4.5, personalized by me  -->
+    <!-- * A navbar -->
+    <!-- * Navbar must be consistent on each page. -->
     <div class="container-flex">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="../index.html">Travis Miller</a>
@@ -34,6 +35,12 @@
                                 class="sr-only">(current)</span></a></a>
                     </li>
                 </ul>
+                <div class="container-flex">
+                    <a href="https://www.facebook.com/travis.miller.587268" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://twitter.com/bigchsta621" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/travis-miller-726451137/" class="fa fa-linkedin target="
+                        _blank""></a>
+                </div>
                 <span class="navbar-text">
 
                 </span>
@@ -41,35 +48,36 @@
         </nav>
     </div>
 
-    <!-- This Bootstrap form is for contacting me via email -->
-    <div class="container-fluid">
-        <form>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
-            </div>
-            <br>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <br>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-dark">Submit</button>
-        </form>
-    </div>
-
-    <footer class="navbar fixed-bottom bg-dark">
+    <!-- * A responsive layout -->
+    <main>
         <div class="container-fluid">
-            <span class="text-muted">Developer Services®</span>
-            <a href="https://www.facebook.com/travis.miller.587268" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://twitter.com/bigchsta621" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/travis-miller-726451137/" class="fa fa-linkedin target=" _blank""></a>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-dark">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class=" fixed-bottom bg-dark">
+        <div class="container-flex">
+            <span class="text-muted text-center ">It may not be pretty, but it works®</span>
         </div>
     </footer>
+
 
     </div>
 

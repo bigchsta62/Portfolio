@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <!-- Navbar copied from Bootstrap 4.5, personalized by me  -->
+    <!-- * A navbar -->
+    <!-- * Navbar must be consistent on each page. -->
     <div class="container-flex">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="../index.html">Travis Miller</a>
@@ -20,6 +21,7 @@
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -27,12 +29,19 @@
                     </li>
                     <!-- This class highlights the active page button in the navbar -->
                     <li class="nav-item active">
-                        <a class="nav-link" href="../pages/portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="../pages/portfolio.html">Portfolio<span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/contact.html">Contact</a>
                     </li>
                 </ul>
+                <div class="container-flex">
+                    <a href="https://www.facebook.com/travis.miller.587268" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://twitter.com/bigchsta621" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/travis-miller-726451137/" class="fa fa-linkedin target="
+                        _blank""></a>
+                </div>
                 <span class="navbar-text">
 
                 </span>
@@ -40,24 +49,79 @@
         </nav>
     </div>
 
-    <footer class="navbar fixed-bottom bg-dark">
-        <div class="container-fluid">
-            <span class="text-muted">Developer Services®</span>
-            <a href="https://www.facebook.com/travis.miller.587268" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://twitter.com/bigchsta621" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/travis-miller-726451137/" class="fa fa-linkedin target="_blank""></a>
+    <main>
+        <!-- * A responsive layout -->
+        <div class="card-columns">
+            <div class="card border-dark mb-3">
+                <!-- * Responsive images -->
+                <a href="https://bigchsta62.github.io/Homework-week-1/">
+                    <img class="card-img-top"
+                        src="https://bigchsta62.github.io/Homework-week-1/02-Homework/Develop/assets/images/search-engine-optimization.jpg"
+                        alt="Tabletop with latop, coffee cup, notebook, and pencils">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title text-center">HTML Semantics</h5>
+                    <p class="card-text">In this homework assignment, I learned the basics of semantic language.</p>
+                </div>
+            </div>
+
+            <div class="card text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>"Happiness can be found, even in the darkest of times, if one only remembers to turn on the
+                        light"
+                    </p>
+                    <footer class="blockquote-footer">
+                        <small>
+                            Albus Dumbledore<cite title="Source Title">, Forbes</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+
+            <div class="card border-dark mb-3">
+                <a href="https://scratch.mit.edu/projects/398667677/fullscreen/">
+                    <img class="img-fluid" src="../assets/images/Scratch icon.png" alt="Paddle Game">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Space Paddles</h5>
+                    <p class="card-text">Try to beat the AI in this classic Pong style game</p>
+
+                </div>
+            </div>
+
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Work in Progress</h5>
+                    <p class="card-text">I am in the process of adding more projects.</p>
+                    <p class="card-text"><small>Check back soon</small></p>
+                </div>
+            </div>
+
+    </main>
+
+
+
+
+
+
+
+
+    <footer class=" fixed-bottom bg-dark">
+        <div class="container-flex">
+            <span class="text-muted text-center ">It may not be pretty, but it works®</span>
         </div>
     </footer>
 
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
 </body>
 

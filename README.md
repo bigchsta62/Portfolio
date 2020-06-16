@@ -18,9 +18,9 @@ Responsive design ensures that web applications render well on a variety of devi
 
    <!-- * A responsive layout -->
 
-   * Responsive images
+   <!-- * Responsive images -->
 
-* The Bootstrap portfolio should minimize the use of media queries.
+<!-- * The Bootstrap portfolio should minimize the use of media queries. -->
 
 * Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
 
@@ -38,7 +38,7 @@ Responsive design ensures that web applications render well on a variety of devi
 
 * GitHub repository with README describing the project
 
-* Navbar must be consistent on each page.
+<!-- * Navbar must be consistent on each page. -->
 
 * Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
 
