@@ -6,7 +6,7 @@ This portfolio is version 1.0
 I have learned some very useful informaiton, while getting to know bootstrap.
 Bootstrap is a very competent toll for responsive design. I have ejoyed getting to know it.
 
-In this portfolio you wil find:
+In this portfolio you will find:
 
 * Consistant navigation whether on desktop or mobile.
 
