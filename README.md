@@ -1,8 +1,6 @@
 # Portfolio
 This Is my portfolio. I plan on updating it regularly, and adding projects as I complete them. 
 
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
-
 This portfolio is version 1.0
 
 I have learned some very useful informaiton, while getting to know bootstrap.
