@@ -33,7 +33,7 @@ main {
   padding-top: 25px;
 }
 
-.card {
+.card{
   margin: auto;
   border-radius: 0px;
   border-width: 0px;
@@ -45,6 +45,10 @@ main {
 }
 .card-title {
   color: lightgrey;
+}
+.card-header{
+  background: none;
+  border: none;
 }
 .col-sm-4 {
   margin-left: -10px;
