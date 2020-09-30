@@ -27,6 +27,13 @@ a {
   width: 100%;
   height: auto;
 }
+
+@media only screen and (max-width: 400px) {
+  .img-responsive {
+    width: 275px;
+    height: auto;
+  }
+}
 main {
   margin: auto;
   width: 85%;
