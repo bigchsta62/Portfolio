@@ -4,7 +4,7 @@ This Is my portfolio. I plan on updating it regularly, and adding projects as I 
 This portfolio is version 1.0
 
 I have learned some very useful informaiton, while getting to know bootstrap.
-Bootstrap is a very competent toll for responsive design. I have ejoyed getting to know it.
+Bootstrap is a very competent tool for responsive design. I have ejoyed getting to know it.
 
 In this portfolio you will find:
 
