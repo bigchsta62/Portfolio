@@ -18,9 +18,10 @@ a {
   float: right;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.face{
+  background-image: url("./images/IMG_3146.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 main {
