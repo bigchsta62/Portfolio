@@ -30,8 +30,8 @@ a {
 
 @media only screen and (max-width: 400px) {
   .img-responsive {
-    width: 275px;
-    height: auto;
+    width: auto;
+    max-height: 210px;
   }
 }
 main {
