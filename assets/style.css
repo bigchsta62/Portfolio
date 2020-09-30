@@ -25,6 +25,7 @@ a {
 } */
 .img-responsive {
   width: 100%;
+  height: auto;
 }
 main {
   margin: auto;
