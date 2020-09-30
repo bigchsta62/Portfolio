@@ -23,18 +23,9 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
 } */
-.img-responsive {
-  width: 100%;
-  height: auto;
-}
 
-@media only screen and (max-width: 400px) {
-  .img-responsive {
-    max-width: 100%;
-    height: auto!important;
 
-  }
-}
+
 main {
   margin: auto;
   width: 85%;
