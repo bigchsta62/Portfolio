@@ -18,11 +18,6 @@ a {
   float: right;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 main {
   margin: auto;
   width: 85%;
@@ -30,6 +25,7 @@ main {
 }
 
 .card {
+    
   margin: auto;
   border-radius: 0px;
   border-width: 0px;
@@ -39,8 +35,8 @@ main {
 .card-body {
   text-align: center;
 }
-.card-title {
-  color: lightgrey;
+.card-title{
+    color: lightgrey;
 }
 .col-sm-4 {
   margin-left: -10px;
@@ -91,19 +87,19 @@ label {
   font-size: 48px;
   color: #d73a49;
 }
-#github:hover {
+#github:hover{ 
   color: #8a242e;
 }
 #email {
   font-size: 48px;
   color: #525252;
 }
-#email:hover {
+#email:hover{ 
   color: #3d3d3d;
 }
 
-.fa {
-  padding-left: 5px;
-  padding-right: 5px;
-  text-shadow: 2px 2px 4px #000000;
+.fa{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-shadow: 2px 2px 4px #000000;
 }
