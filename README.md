@@ -27,9 +27,12 @@ In this portfolio you will find:
 * Bootstrap components, ie containers on all pages, a grid system using columns and rows on the About page(index.html,
   while utilizing Boostrap's Card Columns system on the portfolio.html page.
   
-*BONUS* A sticky footer was made using the class="fixed-bottom" borrowed from Bootstrap navbar settings.
+*A sticky footer was made using the class="fixed-bottom" borrowed from Bootstrap navbar settings.
 
 * GitHub repository with README describing the project
+
+### Link to portfolio
+https://bigchsta62.github.io/Portfolio/index.html
 
 * All pages, both HTML and CSS were validated using W3Schools https://validator.w3.org/nu/#textarea
 
