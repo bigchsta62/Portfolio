@@ -18,13 +18,11 @@ a {
   float: right;
 }
 
-/* .face {
-  background-image: url("./images/IMG_3146.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-
+#img1 {
+  height: auto;
+  
+  width: 100%;
+}
 
 main {
   margin: auto;
