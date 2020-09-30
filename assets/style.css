@@ -18,12 +18,14 @@ a {
   float: right;
 }
 
-.face{
+/* .face {
   background-image: url("./images/IMG_3146.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+} */
+.img-responsive {
+  width: 100%;
 }
-
 main {
   margin: auto;
   width: 85%;
